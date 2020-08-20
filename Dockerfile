@@ -1,4 +1,4 @@
-FROM python:3.6.3
+FROM bashkirtsevich/py-libre-office
 
 RUN apt-get -y update && \
     apt-get -y install poppler-utils
